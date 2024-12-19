@@ -1,0 +1,20 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 5px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px;
+  background-color: #02311c;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: black;
+}

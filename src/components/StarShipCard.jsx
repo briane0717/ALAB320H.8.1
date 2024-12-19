@@ -3,7 +3,7 @@ import { getAllStarships } from "../services/sw-api";
 
 function StarShipCard({ name }) {
   return (
-    <div>
+    <div className="card">
       <h2>{name}</h2>
     </div>
   );

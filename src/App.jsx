@@ -30,9 +30,9 @@ function App() {
 
   return (
     <>
-      <h1>Star Wars Starships</h1>
+      <h1 className="title">Star Wars Starships</h1>
 
-      <div>
+      <div className="card-container">
         {starships.length === 0 ? (
           <p>Loading starships...</p>
         ) : (
